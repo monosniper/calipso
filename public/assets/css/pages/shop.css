@@ -1,0 +1,37 @@
+body {
+  background: #f5f5f5;
+}
+
+.sort-panel {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  align-items: center;
+  height: 50px;
+}
+.sort-panel-item {
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #424242;
+  position: relative;
+  text-decoration: none;
+  transition: 0.1s ease-in;
+}
+.sort-panel-item:hover {
+  background: #f9f9f9;
+}
+.sort-panel-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #EB00E1;
+}

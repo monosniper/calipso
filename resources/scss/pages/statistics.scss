@@ -1,0 +1,175 @@
+@import "chartist/dist/scss/chartist.scss";
+@import "../vars.scss";
+
+body {
+    background: #f5f5f5;
+}
+
+.stats {
+    &-badge {
+        padding: 5px 15px;
+        color: white;
+        font-size: 14px;
+        margin: 0 .5rem;
+
+        &.moderation {
+            background: gold;
+        }
+
+        &.public {
+            background: $lime;
+        }
+
+        &.rejected {
+            background: $red;
+        }
+    }
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-card {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+
+        &-header {
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        &-body {
+            padding: 10px 5px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        &-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-icon {
+            border-radius: 100%;
+            background: $pink;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    &-block {
+        &.flex {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        &-header {
+            font-weight: 500;
+            font-size: 21px;
+        }
+
+        &-body {
+            padding: 15px 10px;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            &-plus {
+                font-size: 18px;
+                color: $lime;
+
+                i {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-icon {
+            border-radius: 100%;
+            background: $pink;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 120px;
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 10px;
+    }
+
+    &-buyer {
+        &-user {
+            display: flex;
+            gap: .5rem;
+            align-items: center;
+
+            &-avatar {
+                border-radius: 100%;
+                width: 30px;
+                height: 30px;
+                background-position: center;
+                background-size: cover;
+            }
+
+            &-name {
+                font-size: 14px;
+            }
+        }
+
+        &-right {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        &-rating {
+            color: gold;
+            font-size: 14px;
+        }
+
+        &-date {
+            font-size: 12px;
+            color: $dark;
+        }
+    }
+
+    &-chat-btn {
+        border-radius: 100%;
+        background: $pink;
+        width: 30px;
+        height: 30px;
+        border: none;
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+}

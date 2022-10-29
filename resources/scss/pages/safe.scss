@@ -1,0 +1,101 @@
+@import "../vars";
+
+.safe {
+    &-header {
+        padding: 0;
+
+        &-top {
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            &-right {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+
+    &-stage {
+        font-size: 14px;
+        flex: 1 1 auto;
+        text-align: center;
+        padding: 20px 0;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &.completed {
+            background: $pink;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        &.active {
+            border: 2px solid $pink;
+            color: $pink;
+            font-weight: bold;
+        }
+
+        &.disabled {
+            cursor: no-drop;
+        }
+    }
+
+    &-price, &-icon {
+        color: $pink;
+        font-size: 18px;
+    }
+
+    &-stages {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 1px;
+    }
+
+    &-alert {
+        padding: 10px 20px;
+        width: fit-content;
+        background: #3f9dff;
+        border-radius: 10px;
+        color: white;
+        opacity: 0.7;
+        margin: 0.5rem 0;
+    }
+
+    &-result-link {
+        padding: 5px 15px;
+        display: block;
+        border: 1px solid #d1d1d1;
+        border-radius: 5px;
+        width: fit-content;
+    }
+
+    &-tab {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+
+    &-body {
+        &-title {
+            margin-bottom: 1rem;
+        }
+
+        &-description {
+            margin-bottom: 1rem;
+            font-size: 18px;
+        }
+
+        &-footer {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+    }
+}

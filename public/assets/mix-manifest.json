@@ -1,0 +1,20 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/pages/freelance.css": "/css/pages/freelance.css",
+    "/css/pages/lot.css": "/css/pages/lot.css",
+    "/css/pages/shop.css": "/css/pages/shop.css",
+    "/css/pages/profile.css": "/css/pages/profile.css",
+    "/css/pages/home.css": "/css/pages/home.css",
+    "/css/tailwind.css": "/css/tailwind.css",
+    "/css/pages/help.css": "/css/pages/help.css",
+    "/css/pages/safe.css": "/css/pages/safe.css",
+    "/css/pages/statistics.css": "/css/pages/statistics.css",
+    "/css/pages/reviews.css": "/css/pages/reviews.css",
+    "/css/pages/about.css": "/css/pages/about.css",
+    "/css/pages/faq.css": "/css/pages/faq.css",
+    "/css/pages/projects.css": "/css/pages/projects.css",
+    "/css/pages/freelancers.css": "/css/pages/freelancers.css",
+    "/css/pages/order.css": "/css/pages/order.css",
+    "/js/app.min.js": "/js/app.min.js"
+}

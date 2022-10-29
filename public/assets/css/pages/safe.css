@@ -1,0 +1,84 @@
+.safe-header {
+  padding: 0;
+}
+.safe-header-top {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.safe-header-top-right {
+  display: flex;
+  gap: 1rem;
+}
+.safe-stage {
+  font-size: 14px;
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.safe-stage:hover {
+  opacity: 0.7;
+}
+.safe-stage.completed {
+  background: #EB00E1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.safe-stage.active {
+  border: 2px solid #EB00E1;
+  color: #EB00E1;
+  font-weight: bold;
+}
+.safe-stage.disabled {
+  cursor: no-drop;
+}
+.safe-price, .safe-icon {
+  color: #EB00E1;
+  font-size: 18px;
+}
+.safe-stages {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1px;
+}
+.safe-alert {
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #3f9dff;
+  border-radius: 10px;
+  color: white;
+  opacity: 0.7;
+  margin: 0.5rem 0;
+}
+.safe-result-link {
+  padding: 5px 15px;
+  display: block;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.safe-tab {
+  display: none;
+}
+.safe-tab.active {
+  display: block;
+}
+.safe-body-title {
+  margin-bottom: 1rem;
+}
+.safe-body-description {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+.safe-body-footer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

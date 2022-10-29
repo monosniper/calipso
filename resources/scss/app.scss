@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'all';
+@import 'standart';
+@import 'cookies';
+@import 'modal';
+@import 'responsible';
+@import 'header';
+@import 'footer';
+@import 'fonts';
+@import 'pagination';
+@import 'breadcrumbs';
+@import 'animate.css';
+@import 'snow';
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #919191 transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #919191;
+    border-radius: 5px;
+}

@@ -1,0 +1,152 @@
+.lg-only {
+    display: block;
+}
+
+.sm-only, .md-only, .xs-only, .sm-from {
+    display: none;
+}
+
+a {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+
+    &.full-height {
+        height: 100%;
+    }
+}
+
+.row {
+    row-gap: 1rem;
+
+    &+.row {
+        margin-top: 1rem;
+    }
+}
+button {
+    cursor: pointer;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1235px;
+    min-height: calc(100% - 426px);
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+hr.separate {
+    margin: 30px 0;
+    border: 1px solid #cecece;
+}
+
+.lds-ring {
+    display: flex;
+    position: relative;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.selectize-input {
+    padding: 7px 38px;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 3px;
+    box-shadow: none;
+    height: 100%;
+
+    &.single input {
+        width: auto !important;
+    }
+
+    input {
+        vertical-align: middle;
+        font-size: 17px;
+        font-weight: 500;
+        opacity: 0.97 !important;
+        color: $dark;
+    }
+
+}
+
+.selectize-dropdown {
+    padding: 0 38px;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}

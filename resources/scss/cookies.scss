@@ -1,0 +1,62 @@
+.cookies {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    &.active {
+        display: flex;
+    }
+
+    &_text {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px 0;
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    &_image {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    &_footer {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        &.active {
+            display: flex;
+        }
+    }
+
+    &_btn {
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        background: #23e278;
+    }
+
+    &_overflow {
+        background: #000000b0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}

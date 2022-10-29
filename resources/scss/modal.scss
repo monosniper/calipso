@@ -1,0 +1,156 @@
+.modal_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    &#sign {
+        form {
+            margin-top: 45px;
+        }
+
+        .form {
+            display: none;
+            max-width: 400px;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+    &.active {
+        display: flex;
+    }
+
+    .submit {
+        display: none;
+    }
+
+    .modal {
+        max-height: 100%;
+        background: linear-gradient(115.02deg, #282828 7.76%, #1C1C1C 83.02%);
+        background-size: cover;
+        border-radius: 5px;
+        z-index: 1;
+        padding: 60px 70px 60px 48px;
+        text-align: center;
+        color: $light;
+        overflow-y: scroll;
+
+        &_errors {
+            padding: 20px;
+            background: #eb0077;
+            border-radius: 10px;
+            margin: 10px 0;
+            list-style: none;
+
+            .modal_errors_item + .modal_errors_item {
+                margin-top: 10px;
+            }
+        }
+
+        .sign_change_type {
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 14px;
+            height: 60px;
+            align-items: center;
+
+            .sign_change_type_item {
+                cursor: pointer;
+                transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+
+                &.active {
+                    font-size: 32px;
+                }
+            }
+        }
+
+        &_logo {
+            img {
+                width: 275px;
+            }
+
+            margin-bottom: 45px;
+        }
+
+        &_field {
+            background: #282828;
+            width: 100%;
+            opacity: 0.97;
+            border: 0.5px solid #C4C4C4;
+            border-radius: 5px;
+            padding: 15px 14px;
+            color: $light;
+            z-index: 10;
+            outline: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .modal_field + .modal_field {
+            margin-top: 25px;
+        }
+
+        hr {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            margin-bottom: 30px;
+        }
+
+        &_title {
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 43px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+
+            &.small {
+                font-size: 20px;
+                text-transform: capitalize;
+                font-weight: 500;
+            }
+        }
+
+        button + button {
+            margin-left: 25px;
+        }
+
+        &_text {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            color: $light_grey;
+            margin-top: 30px;
+        }
+
+        &_form {
+            margin-top: 30px;
+            margin-bottom: 45px;
+        }
+
+        &_footer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 15px 0;
+        }
+
+
+    }
+
+    .modal_overflow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000000b8;
+    }
+}

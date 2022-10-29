@@ -1,0 +1,269 @@
+.hidden-description {
+  display: none;
+}
+.hidden-description p:last-child {
+  display: none !important;
+}
+
+.single-lot-details {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.single-lot-description p:last-child {
+  display: none !important;
+}
+.single-lot-rating i {
+  color: #EB00E1;
+  font-size: 16px;
+}
+.single-lot-tags {
+  display: flex;
+  gap: 5px;
+}
+.single-lot-tag {
+  font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: #707070;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-decoration: none;
+}
+.single-lot-tag:hover {
+  background: #EB00E1;
+  color: white;
+}
+.single-lot-term {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 3px 15px;
+}
+.single-lot-term.premium {
+  background: #EB00E1;
+}
+.single-lot-term.top {
+  background: gold;
+}
+.single-lot-reviews-count {
+  border-bottom: 1px dashed;
+  text-decoration: none;
+}
+.single-lot-reviews-count:hover {
+  color: #EB00E1;
+}
+.single-lot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-lot-price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.single-lot-price span {
+  font-weight: bold;
+  font-size: 24px;
+}
+.single-lot-price-discount-top {
+  line-height: 22px;
+  font-weight: bold;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #595959;
+}
+.single-lot-price-discount-down {
+  color: #EB00E1;
+  text-align: center;
+  font-size: 14px;
+}
+.single-lot-basket {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.single-lot-basket span {
+  cursor: pointer;
+}
+.single-lot-properties {
+  width: 100%;
+}
+.single-lot-property.hidden {
+  display: none;
+}
+.single-lot-property-name {
+  color: #8b8b8b;
+  width: 61%;
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.single-lot-property-name .th-border {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100%;
+}
+.single-lot-property-name .th-border span {
+  padding-right: 12px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.single-lot-property-name .th-border::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  border-bottom: 1px dashed #ccc;
+}
+.single-lot-property-value {
+  width: 39%;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.single-lot-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #282828;
+  margin: 20px 0;
+  position: relative;
+  padding-bottom: 10px;
+}
+.single-lot-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 85px;
+  border: 1px solid #EB00E1;
+  z-index: 1;
+}
+.single-lot-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  border: 1px solid #F6F6F6;
+}
+
+.splide__track {
+  padding: 10px 0;
+}
+
+.lot {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.show-description, .show-properties {
+  font-size: 14px;
+  color: #EB00E1;
+  cursor: pointer;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add_review {
+  margin-left: 1rem;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.rateit-selected, .rateit-hover {
+  color: #EB00E1;
+}
+
+.lotSwiper {
+  height: 80%;
+  width: 100%;
+}
+
+.thumbsSwiper {
+  height: 300px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.thumbsSwiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.thumbsSwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.2s ease-out;
+}
+
+.txt {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 9px;
+  line-height: 12px;
+  text-align: center;
+  cursor: default;
+}
+
+.x {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.next, .prev {
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .thumbsSwiper {
+    height: 100px !important;
+  }
+}

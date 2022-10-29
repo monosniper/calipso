@@ -1,0 +1,40 @@
+.about-title {
+  text-align: center;
+  padding: 1rem 0;
+}
+.about-row-right .about-row-title, .about-row-right .about-row-img, .about-row-right .about-row-description {
+  text-align: end;
+  float: right;
+}
+.about-row-right .about-row-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.about-row-title {
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+}
+.about-row-description, .about-row-title {
+  max-width: 60%;
+}
+.about-choice {
+  padding: 3rem 0;
+}
+.about-choice-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.about-choice-tab.active, .about-choice-tab:hover {
+  filter: none;
+}
+.about-choice-tab-content {
+  display: none;
+}
+.about-choice-tab-content.active {
+  display: block;
+}

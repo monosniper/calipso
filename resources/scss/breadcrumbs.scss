@@ -1,0 +1,29 @@
+@import 'vars';
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+
+    &_separator {
+        font-size: 18px;
+        color: #cbcbcb;
+    }
+
+    &_item {
+        text-decoration: none;
+        color: black;
+
+        &:not(:last-child) {
+            color: #838383;
+        }
+
+        &:hover:not(:last-child) {
+            color: $pink;
+        }
+    }
+}

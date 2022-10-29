@@ -1,0 +1,152 @@
+body {
+  background: #f5f5f5;
+}
+
+.single-order * {
+  font-family: "PT Sans", Arial, Tahoma, sans-serif;
+}
+.single-order-title {
+  font-weight: bold;
+  text-decoration: none;
+  color: #634f73;
+  line-height: 1.2em;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.single-order-safe {
+  color: #EB00E1;
+}
+.single-order-tags {
+  display: flex;
+  gap: 5px;
+}
+.single-order-tag {
+  font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: #707070;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-decoration: none;
+}
+.single-order-tag:hover {
+  background: #EB00E1;
+  color: white;
+}
+.single-order-price {
+  font-weight: bold;
+  color: #17d76d;
+}
+.single-order-status {
+  color: white;
+  border-radius: 3px;
+  padding: 4px 10px;
+}
+.single-order-status.active {
+  background: #2deba4;
+}
+.single-order-status.agreement {
+  background: #3f9dff;
+}
+.single-order-status.reservation {
+  background: #EB00E1;
+}
+.single-order-status.in_work, .single-order-status.urgent {
+  background: #ad00f5;
+}
+.single-order-status.reviews {
+  background: gold;
+}
+.single-order-status.complete {
+  background: #37a300;
+}
+.single-order-days {
+  font-size: 12px;
+  color: #282828;
+}
+.single-order-header, .single-order-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+.single-order-header-left, .single-order-footer-left {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.single-order-header-right, .single-order-footer-right {
+  display: flex;
+  gap: 1rem;
+}
+.single-order-details-item {
+  font-size: 14px;
+}
+.single-order-details-item i {
+  color: #aeb8bc;
+}
+.single-order-btns {
+  display: flex;
+  gap: 10px;
+}
+.single-order-btn {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background: #ccc;
+  color: white;
+}
+.single-order-btn:hover {
+  background: #EB00E1;
+}
+.single-order-description {
+  color: #3d424d;
+  font-size: 15px;
+  line-height: 1.7em;
+}
+.single-order-author-avatar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.single-order-author-avatar img {
+  width: 90px;
+  border-radius: 100%;
+}
+.single-order-author-name {
+  text-decoration: none;
+  color: #4f6173;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+.single-order-author-title {
+  font-size: 15px;
+  color: #506172;
+  font-weight: bold;
+  margin: 7px 0;
+}
+.single-order-author-statistic-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 13px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.single-order-author-statistic-item-right {
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+p {
+  font-size: 13px;
+}

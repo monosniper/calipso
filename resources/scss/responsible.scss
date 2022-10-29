@@ -1,0 +1,488 @@
+@media only screen and (max-width: 1300px) {
+
+    .stats-card-icon {
+        width: 45px !important;
+        height: 45px !important;
+        font-size: 20px !important;
+    }
+
+    .section_freelancers_wrapper {
+        flex-wrap: wrap;
+
+        .freelancer {
+            flex-basis: calc(50% - 13px) ;
+        }
+    }
+
+    .container {
+        max-width: 1035px;
+    }
+
+    .header_menu {
+        gap: 25px;
+    }
+
+    .header_menu_item {
+        font-size: 12px;
+    }
+
+    .section_plus .section_title {
+        line-height: normal;
+        font-size: 26px;
+    }
+
+    .section_img img {
+        height: auto !important;
+    }
+
+    .section_about, .section_shop {
+        padding-bottom: 50px;
+    }
+
+    .section_info .info-block h1 {
+        font-size: 40px;
+    }
+
+    .section_info .info-block small {
+        font-size: 14px;
+    }
+
+    .lots .lot {
+        flex-basis: calc(50% - .5rem) !important;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .search_form .search_bottom {
+        grid-template-columns: 200px 200px 1fr 160px !important;
+    }
+
+    .md-only {
+        display: block;
+    }
+
+    .lg-only {
+        display: none;
+    }
+    .header {
+        padding: 20px 0 !important;
+
+        background-color: $dark;
+
+        .webz_btn {
+            background: none !important;
+            border: 1px solid $pink !important;
+        }
+    }
+
+    .banner_center {
+        width: 760px;
+    }
+
+    .banner_center .banner_title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .banner_center .banner_text {
+        font-size: 16px;
+    }
+
+    .section_title {
+
+        font-size: 36px;
+    }
+    .section_par {
+        font-size: 16px;
+    }
+
+    .section_details_link {
+        font-size: 16px;
+    }
+
+    .section_reviews .review:nth-child(4),
+    .section_freelancers .freelancer:nth-child(4),
+    .section_lots .lot:nth-child(3),
+    .section_info .info-block:nth-child(3):before {
+        display: none;
+    }
+
+    .section_info .section_info_wrapper {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .footer_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .webz_btn {
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+
+    .profile_text {
+        font-size: 14px;
+    }
+
+    .profile_title {
+        font-size: 18px;
+    }
+
+    .profile_detail {
+        font-size: 12px;
+    }
+
+    .profile_avatar_image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile_avatar {
+        width: 160px;
+        height: 160px;
+    }
+
+    .profile_wrapper {
+        grid-template-columns: 260px 1fr !important;
+    }
+
+    .profile_menu_item {
+        .profile_menu_item_title {
+            font-size: 12px;
+        }
+
+        .profile_menu_item_icon {
+            padding: 0 22px;
+
+            .profile_menu_item_icon img {
+                width: 14px;
+            }
+        }
+    }
+
+    .messages_btn {
+        width: 220px;
+    }
+
+    .section_plus_wrapper {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        max-width: 700px;
+    }
+
+    .form-checkbox + label {
+        margin-top: 0 !important;
+        margin-bottom: 2rem;
+    }
+
+    .selectize-control {
+        z-index: 10;
+    }
+
+    .sm-only {
+        display: block;
+    }
+
+    .section_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .search_wrapper {
+        grid-template-areas:
+            "query query query query"
+            "category category tags tags"
+            "price_from price_to reset filter" !important;
+    }
+
+    .section_text, .section_img {
+        flex-basis: auto;
+    }
+
+    .banner_center {
+        width: 600px;
+    }
+
+    .search_form .search_field {
+        padding: 8px 25px;
+        font-size: 13px;
+    }
+
+    .selectize-dropdown {
+        padding: 0 23px;
+    }
+
+    .selectize-input {
+        padding: 7px 25px;
+
+        input {
+            font-size: 13px;
+        }
+    }
+
+    .section_plus .section_plus_wrapper,
+    .section.section_reviews .section_reviews_wrapper, .section.section_freelancers .section_freelancers_wrapper {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .section_reviews .review:nth-child(3),
+    .section_freelancers .freelancer:nth-child(3) {
+        display: none;
+    }
+
+    .search_form .webz_btn {
+        padding: 10px 0 !important;
+    }
+
+    .slider {
+        background-position: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer_wrapper {
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+
+    .profile_wrapper {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .sm-from {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .section_plus .section_plus_wrapper {
+        grid-template-columns: 1fr !important;
+    }
+
+    .freelancer {
+        flex-basis: 100%;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    .xs-only {
+        display: block;
+    }
+
+    .search_form .search_wrapper {
+        padding: 25px 30px;
+        grid-template-columns: 1fr 1fr 100px 100px !important;
+    }
+
+    .section_title {
+        font-size: 26px;
+    }
+
+    .section_plus .section_title {
+        font-size: 18px;
+    }
+
+    .section_info .info-block:nth-child(1) img {
+        width: 170px;
+    }
+
+    .section_info .info-block h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .search_form .search_center {
+        grid-template-columns: 1fr 140px !important;
+    }
+
+    .profile_avatar {
+        width: 140px;
+        height: 140px;
+
+        .profile_avatar_image {
+            width: 130px;
+            height: 130px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .search_wrapper {
+        padding: 25px 20px !important;
+    }
+    .about-row {
+        &-right {
+            .about-row-img {
+                order: -1;
+            }
+        }
+
+        .about-row-title {
+            padding-top: 2rem !important;
+        }
+
+        .about-row-description {
+            padding-bottom: 2rem !important;
+        }
+
+        .about-row-description, .about-row-title {
+            max-width: 100%;
+            text-align: center !important;
+        }
+
+        &-text {
+            align-items: center !important;
+        }
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .lots .lot {
+        flex-basis: 100% !important;
+    }
+
+    .search_form .search_wrapper {
+        grid-template-columns: 1fr !important;
+        grid-template-areas:
+        "query"
+        "category"
+        "tags"
+        "price_from"
+        "price_to"
+        "reset"
+        "filter" !important;
+    }
+
+    .banner_center {
+        width: 85%;
+    }
+
+    .footer_menu {
+        display: flex !important;
+        gap: 60px !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+
+    .modal_wrapper .modal_logo {
+        margin-bottom: 25px;
+    }
+
+    .modal_wrapper .modal_logo img {
+        width: 175px;
+    }
+
+    .modal_wrapper .modal_title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .modal_wrapper .modal_text {
+        font-size: 13px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .modal .webz_btn {
+        padding: 10px 20px;
+    }
+
+    .profile_info_wrapper {
+        grid-template-columns: 1fr !important;
+    }
+
+    .profile_info_avatar {
+        order: -1;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .search_form .search_bottom {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .section_plus .section_plus_wrapper,
+    .section_info .section_info_wrapper,
+    .search_form .search_center {
+        grid-template-columns: 1fr !important;
+    }
+
+    .info-block::before {
+        display: none;
+    }
+
+    .section_details_link {
+        font-size: 14px;
+    }
+
+    .section_title {
+        font-size: 18px !important;
+    }
+
+    .section_details {
+        margin-top: 15px;
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr !important;
+    }
+
+    .profile_detail {
+        width: 100%;
+    }
+
+    .modal_wrapper .modal {
+        overflow-y: scroll;
+    }
+
+    .modal_wrapper .modal {
+        padding: 40px 30px 40px 30px !important;
+    }
+
+    .plus_card {
+        padding: 15px 20px !important;
+
+        &_noback {
+            height: 170px !important;
+        }
+    }
+
+    .section_freelancers .section_header {
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+
+    .section.section_freelancers {
+        padding-bottom: 53px !important;
+    }
+
+    #slider {
+        display: none;
+    }
+
+    .banner_text {
+        display: none !important;
+    }
+}
